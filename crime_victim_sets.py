@@ -1,0 +1,188 @@
+# Crime Classification Sets
+# Human Victim vs Non-Human Victim
+
+# Set of crimes that directly involve human victims
+human_victim_crimes = {
+    'BATTERY - SIMPLE ASSAULT',
+    'THEFT OF IDENTITY',
+    'CRIMINAL THREATS - NO WEAPON DISPLAYED',
+    'ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT',
+    'BRANDISH WEAPON',
+    'VIOLATION OF RESTRAINING ORDER',
+    'INTIMATE PARTNER - SIMPLE ASSAULT',
+    'BATTERY WITH SEXUAL CONTACT',
+    'INTIMATE PARTNER - AGGRAVATED ASSAULT',
+    'LETTERS, LEWD  -  TELEPHONE CALLS, LEWD',
+    'ROBBERY',
+    'BUNCO, GRAND THEFT',
+    'STALKING',
+    'THROWING OBJECT AT MOVING VEHICLE',
+    'BUNCO, ATTEMPT',
+    'CRIMINAL HOMICIDE',
+    'ASSAULT WITH DEADLY WEAPON ON POLICE OFFICER',
+    'PICKPOCKET',
+    'ATTEMPTED ROBBERY',
+    'OTHER ASSAULT',
+    'FALSE POLICE REPORT',
+    'INDECENT EXPOSURE',
+    'DISTURBING THE PEACE',
+    'BOMB SCARE',
+    'CHILD ABUSE (PHYSICAL) - SIMPLE ASSAULT',
+    'FALSE IMPRISONMENT',
+    'KIDNAPPING - GRAND ATTEMPT',
+    'CHILD NEGLECT (SEE 300 W.I.C.)',
+    'CRM AGNST CHLD (13 OR UNDER) (14-15 & SUSP 10 YRS OLDER)',
+    'KIDNAPPING',
+    'CHILD ANNOYING (17YRS & UNDER)',
+    'SEXUAL PENETRATION W/FOREIGN OBJECT',
+    'RAPE, FORCIBLE',
+    'SHOTS FIRED AT MOVING VEHICLE, TRAIN OR AIRCRAFT',
+    'RESISTING ARREST',
+    'SHOTS FIRED AT INHABITED DWELLING',
+    'SEX,UNLAWFUL(INC MUTUAL CONSENT, PENETRATION W/ FRGN OBJ',
+    'DISCHARGE FIREARMS/SHOTS FIRED',
+    'VIOLATION OF TEMPORARY RESTRAINING ORDER',
+    'THEFT, PERSON',
+    'BATTERY POLICE (SIMPLE)',
+    'BUNCO, PETTY THEFT',
+    'EXTORTION',
+    'HUMAN TRAFFICKING - COMMERCIAL SEX ACTS',
+    'SODOMY/SEXUAL CONTACT B/W PENIS OF ONE PERS TO ANUS OTH',
+    'BATTERY ON A FIREFIGHTER',
+    'ORAL COPULATION',
+    'PURSE SNATCHING',
+    'CHILD ABANDONMENT',
+    'LEWD CONDUCT',
+    'PROWLER',
+    'PANDERING',
+    'DEFRAUDING INNKEEPER/THEFT OF SERVICES, $950 & UNDER',
+    'DEFRAUDING INNKEEPER/THEFT OF SERVICES, OVER $950.01',
+    'PEEPING TOM',
+    'INCITING A RIOT',
+    'CHILD ABUSE (PHYSICAL) - AGGRAVATED ASSAULT',
+    'PIMPING',
+    'THREATENING PHONE CALLS/LETTERS',
+    'CHILD STEALING',
+    'THEFT FROM PERSON - ATTEMPT',
+    'RAPE, ATTEMPTED',
+    'LEWD/LASCIVIOUS ACTS WITH CHILD',
+    'DRUNK ROLL',
+    'CHILD PORNOGRAPHY',
+    'RECKLESS DRIVING',
+    'BEASTIALITY, CRIME AGAINST NATURE SEXUAL ASSLT WITH ANIM',
+    'LYNCHING - ATTEMPTED',
+    'MANSLAUGHTER, NEGLIGENT',
+    'TRAIN WRECKING',
+    'HUMAN TRAFFICKING - INVOLUNTARY SERVITUDE',
+    'DISRUPT SCHOOL',
+    'PURSE SNATCHING - ATTEMPT',
+    'LYNCHING',
+    'INCEST (SEXUAL ACTS BETWEEN BLOOD RELATIVES)',
+    'BIGAMY',
+    'DRUGS, TO A MINOR',
+    'PICKPOCKET, ATTEMPT',
+    'DRUNK ROLL - ATTEMPT'
+}
+
+# Set of crimes that primarily involve non-human victims (property, administrative, etc.)
+not_human_victim_crimes = {
+    'VEHICLE - STOLEN',
+    'VEHICLE - ATTEMPT STOLEN',
+    'THEFT PLAIN - PETTY ($950 & UNDER)',
+    'BURGLARY FROM VEHICLE',
+    'VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)',
+    'THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)',
+    'VIOLATION OF COURT ORDER',
+    'THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)',
+    'SHOPLIFTING - PETTY THEFT ($950 & UNDER)',
+    'TRESPASSING',
+    'DOCUMENT FORGERY / STOLEN FELONY',
+    'BURGLARY',
+    'VANDALISM - MISDEAMEANOR ($399 OR UNDER)',
+    'THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD',
+    'BIKE - STOLEN',
+    'OTHER MISCELLANEOUS CRIME',
+    'EMBEZZLEMENT, GRAND THEFT ($950.01 & OVER)',
+    'VEHICLE, STOLEN - OTHER (MOTORIZED SCOOTERS, BIKES, ETC)',
+    'SHOPLIFTING-GRAND THEFT ($950.01 & OVER)',
+    'CONTEMPT OF COURT',
+    'ARSON',
+    'THEFT FROM MOTOR VEHICLE - ATTEMPT',
+    'BURGLARY FROM VEHICLE, ATTEMPTED',
+    'CREDIT CARDS, FRAUD USE ($950 & UNDER',
+    'FAILURE TO YIELD',
+    'BURGLARY, ATTEMPTED',
+    'SEX OFFENDER REGISTRANT OUT OF COMPLIANCE',
+    'CRUELTY TO ANIMALS',
+    'WEAPONS POSSESSION/BOMBING',
+    'UNAUTHORIZED COMPUTER ACCESS',
+    'CONTRIBUTING',
+    'CREDIT CARDS, FRAUD USE ($950.01 & OVER)',
+    'BOAT - STOLEN',
+    'DISHONEST EMPLOYEE - GRAND THEFT',
+    'DRIVING WITHOUT OWNER CONSENT (DWOC)',
+    'COUNTERFEIT',
+    'THEFT PLAIN - ATTEMPT',
+    'EMBEZZLEMENT, PETTY THEFT ($950 & UNDER)',
+    'SHOPLIFTING - ATTEMPT',
+    'THEFT, COIN MACHINE - GRAND ($950.01 & OVER)',
+    'ILLEGAL DUMPING',
+    'TILL TAP - GRAND THEFT ($950.01 & OVER)',
+    'TELEPHONE PROPERTY - DAMAGE',
+    'GRAND THEFT / INSURANCE FRAUD',
+    'THEFT, COIN MACHINE - PETTY ($950 & UNDER)',
+    'DOCUMENT WORTHLESS ($200.01 & OVER)',
+    'REPLICA FIREARMS(SALE,DISPLAY,MANUFACTURE OR DISTRIBUTE)',
+    'PETTY THEFT - AUTO REPAIR',
+    'DOCUMENT WORTHLESS ($200 & UNDER)',
+    'DISHONEST EMPLOYEE ATTEMPTED THEFT',
+    'CONSPIRACY',
+    'DISHONEST EMPLOYEE - PETTY THEFT',
+    'BRIBERY',
+    'TILL TAP - PETTY ($950 & UNDER)',
+    'BIKE - ATTEMPTED STOLEN',
+    'FIREARMS RESTRAINING ORDER (FIREARMS RO)',
+    'FAILURE TO DISPERSE',
+    'THEFT, COIN MACHINE - ATTEMPT'
+}
+
+# Display information about the sets
+print("🔍 CRIME VICTIM CLASSIFICATION SETS")
+print("=" * 40)
+print(f"Human victim crimes: {len(human_victim_crimes)} crimes")
+print(f"Non-human victim crimes: {len(not_human_victim_crimes)} crimes")
+print(f"Total crimes: {len(human_victim_crimes) + len(not_human_victim_crimes)} crimes")
+
+# Function to classify a crime
+def classify_crime(crime_name):
+    """
+    Classify a crime as human victim or non-human victim
+    
+    Args:
+        crime_name (str): Name of the crime to classify
+        
+    Returns:
+        str: 'human_victim', 'not_human_victim', or 'unknown'
+    """
+    if crime_name in human_victim_crimes:
+        return 'human_victim'
+    elif crime_name in not_human_victim_crimes:
+        return 'not_human_victim'
+    else:
+        return 'unknown'
+
+# Example usage
+if __name__ == "__main__":
+    # Test the classification function
+    test_crimes = [
+        'BATTERY - SIMPLE ASSAULT',
+        'VEHICLE - STOLEN',
+        'ROBBERY',
+        'BURGLARY'
+    ]
+    
+    print("\n🧪 Testing classification function:")
+    print("-" * 30)
+    for crime in test_crimes:
+        classification = classify_crime(crime)
+        print(f"{crime}: {classification}") 
